@@ -1,4 +1,3 @@
-
 car = {
     "model": "Toyota RAV4 Hybrid Style 2025",
     "price_uah": 2026125,
