@@ -26,7 +26,7 @@ for recipe in recipes:
         max_recipe = recipe['name']
 
     if '190' in recipe['instructions'][0]:
-                print('при температурі 190°C готуються:', recipe['name'])
+                print('при температурі 190°C готуються:',recipe['name'])
 
 
 
