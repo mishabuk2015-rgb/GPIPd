@@ -12,8 +12,7 @@ total = 0
 
 for recipe in recipes:
     print(recipe['name'])
-
-
+    total += recipe['reviewCount']
     if 'pizza' in recipe['name'].lower():
         print(recipe['name'])
         print('-------------------------------------------------')
@@ -26,11 +25,9 @@ for recipe in recipes:
         max_recipe = recipe['name']
 
     if '190' in recipe['instructions'][0]:
-                print('при температурі 190°C готуються:',recipe['name'])
+        print('при температурі 190°C готуються:', recipe['name'])
 
-
-
-print('до італійських кухні відносяться:',count,'рецептів' )
+print('до італійських кухні відносяться:', count, 'рецептів')
 print('найбільш калорійна страва:', max_recipe, max_calories)
-total += recipe['reviewCount']
+
 print(total, 'переглядів')
