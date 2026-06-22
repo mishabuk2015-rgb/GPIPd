@@ -14,7 +14,7 @@ class Car:
         )
 
     @property
-    def condition(self):
+    def state(self):
         if self.age <= 3:
             return "нове авто"
         elif self.age <= 10:
