@@ -52,8 +52,8 @@ print(car1)
 
 # property
 print("\nСтан авто:")
-print(car1.condition)
-print(car2.condition)
+print(car1.state)
+print(car2.state)
 
 print("\nСтан пального:")
 print(car1.fuel_status)
